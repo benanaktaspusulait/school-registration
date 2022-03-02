@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: SCHOOL REGISTRATION APPLICATION
+  datasource:
+    url: jdbc:mysql://localhost:3306/school_registration
+    username: root
+    password: 1234
+    driverClassName: com.mysql.cj.jdbc.Driver
+    initialization-mode: never
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+      use-new-id-generator-mappings: true
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl
+    properties:
+      hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+      hibernate.id.new_generator_mappings: true
+      hibernate.generate_statistics: true
+      hibernate.hbm2ddl.import_files: data.sql
+      hibernate.temp.use_jdbc_metadata_defaults: true
+      hibernate.globally_quoted_identifiers: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  main:
+    allow-bean-definition-overriding: true
+
+
+
+server:
+  port: 8080
+
+properties:
+  limit:
+    count:
+      maxCourseForStudent: 5
+      maxRegisterationInCourse: 50

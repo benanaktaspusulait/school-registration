@@ -1,0 +1,68 @@
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (1, '2022-02-27 23:47:55', 1, null, null, 'Noah', 'Goyette');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (2, '2022-02-27 23:47:56', 1, null, null, 'Andrea', 'Koelpin');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (3, '2022-02-27 23:47:56', 1, null, null, 'Kendra', 'Batz');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (4, '2022-02-27 23:47:56', 1, null, null, 'Larue', 'Heller');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (5, '2022-02-27 23:47:56', 1, null, null, 'Yesenia', 'Franecki');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (6, '2022-02-27 23:47:56', 1, null, null, 'Otto', 'Oberbrunner');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (7, '2022-02-27 23:47:56', 1, null, null, 'Leroy', 'Bosco');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (8, '2022-02-27 23:47:56', 1, null, null, 'Carisa', 'D''Amore');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (9, '2022-02-27 23:47:56', 1, null, null, 'Lorri', 'Gusikowski');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (10, '2022-02-27 23:47:56', 1, null, null, 'Chere', 'Boehm');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (11, '2022-02-27 23:47:56', 1, null, null, 'Lupita', 'Bins');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (12, '2022-02-27 23:47:56', 1, null, null, 'Mitch', 'Wilderman');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (13, '2022-02-27 23:47:56', 1, null, null, 'Yong', 'Hoeger');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (14, '2022-02-27 23:47:56', 1, null, null, 'Concepcion', 'Bergstrom');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (15, '2022-02-27 23:47:56', 1, null, null, 'Travis', 'Medhurst');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (16, '2022-02-27 23:47:56', 1, null, null, 'Zelma', 'Botsford');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (17, '2022-02-27 23:47:56', 1, null, null, 'Alfonzo', 'Corwin');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (18, '2022-02-27 23:47:56', 1, null, null, 'Elton', 'Lynch');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (19, '2022-02-27 23:47:56', 1, null, null, 'Else', 'Collier');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (20, '2022-02-27 23:47:56', 1, null, null, 'Marcelene', 'Tromp');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (21, '2022-02-27 23:47:56', 1, null, null, 'Hung', 'Reynolds');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (22, '2022-02-27 23:47:56', 1, null, null, 'Maya', 'Hettinger');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (23, '2022-02-27 23:47:56', 1, null, null, 'Walker', 'Mertz');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (24, '2022-02-27 23:47:56', 1, null, null, 'Stormy', 'Tillman');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (25, '2022-02-27 23:47:56', 1, null, null, 'Sunday', 'Beier');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (26, '2022-02-27 23:47:56', 1, null, null, 'Arvilla', 'Maggio');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (27, '2022-02-27 23:47:56', 1, null, null, 'Wava', 'Murray');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (28, '2022-02-27 23:47:56', 1, null, null, 'Galen', 'Streich');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (29, '2022-02-27 23:47:56', 1, null, null, 'Micah', 'Morar');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (30, '2022-02-27 23:47:56', 1, null, null, 'Lara', 'Stracke');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (31, '2022-02-27 23:47:56', 1, null, null, 'Anjelica', 'Jenkins');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (32, '2022-02-27 23:47:56', 1, null, null, 'Leandro', 'O''Kon');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (33, '2022-02-27 23:47:56', 1, null, null, 'Mckinley', 'Cronin');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (34, '2022-02-27 23:47:56', 1, null, null, 'Bradford', 'Will');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (35, '2022-02-27 23:47:56', 1, null, null, 'Maximo', 'Breitenberg');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (36, '2022-02-27 23:47:56', 1, null, null, 'Ulysses', 'Hammes');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (37, '2022-02-27 23:47:56', 1, null, null, 'Lonnie', 'Rutherford');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (38, '2022-02-27 23:47:56', 1, null, null, 'Gerry', 'Heathcote');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (39, '2022-02-27 23:47:56', 1, null, null, 'Cody', 'Leffler');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (40, '2022-02-27 23:47:56', 1, null, null, 'Stanford', 'Reilly');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (41, '2022-02-27 23:47:56', 1, null, null, 'Palmer', 'Bosco');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (42, '2022-02-27 23:47:56', 1, null, null, 'Renda', 'Morissette');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (43, '2022-02-27 23:47:56', 1, null, null, 'Bryce', 'Grant');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (44, '2022-02-27 23:47:56', 1, null, null, 'Jovan', 'Schoen');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (45, '2022-02-27 23:47:56', 1, null, null, 'Maragaret', 'Johnson');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (46, '2022-02-27 23:47:56', 1, null, null, 'Terina', 'Hoeger');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (47, '2022-02-27 23:47:56', 1, null, null, 'Tyson', 'Hahn');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (48, '2022-02-27 23:47:56', 1, null, null, 'Morgan', 'Beahan');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (49, '2022-02-27 23:47:56', 1, null, null, 'Stevie', 'Schoen');
+INSERT INTO school_registration.students (id, created_at, create_user, update_user, updated_at, firstname, lastname) VALUES (50, '2022-02-27 23:47:56', 1, null, null, 'Curtis', 'Jenkins');
+
+
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (1, '2022-02-27 23:54:11', 1, null, null, 'Calculus');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (2, '2022-02-27 23:54:11', 1, null, null, 'Sports');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (3, '2022-02-27 23:54:11', 1, null, null, 'Chemistry');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (4, '2022-02-27 23:54:11', 1, null, null, 'Medicine');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (5, '2022-02-27 23:54:11', 1, null, null, 'Biology');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (6, '2022-02-27 23:54:11', 1, null, null, 'History');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (7, '2022-02-27 23:54:11', 1, null, null, 'Human Sciences');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (8, '2022-02-27 23:54:11', 1, null, null, 'History of Art');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (9, '2022-02-27 23:54:11', 1, null, null, 'Law');
+INSERT INTO school_registration.courses (id, created_at, create_user, update_user, updated_at, name) VALUES (10, '2022-02-27 23:54:11', 1, null, null, 'Japanese');
+
+INSERT INTO school_registration.course_registration (id, created_at, create_user, update_user, updated_at, course_id, grade, registered_at, student_id) VALUES (1, null, null, null, null, 1, 5, '2022-03-01 22:32:02', 2);
+INSERT INTO school_registration.course_registration (id, created_at, create_user, update_user, updated_at, course_id, grade, registered_at, student_id) VALUES (2, null, null, null, null, 1, 6, '2022-03-01 22:32:02', 2);
+
+INSERT INTO school_registration.hibernate_sequence(next_val) values (51);
+
