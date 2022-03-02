@@ -12,7 +12,7 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@Table(name = "STUDENTS",uniqueConstraints = { @UniqueConstraint(columnNames = { "FIRSTNAME", "LASTNAME" }) })
+@Table(name = "STUDENTS")
 public class Student extends AuditBase implements Serializable {
 
     private static final long serialVersionUID = 1L;

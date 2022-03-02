@@ -1,7 +1,6 @@
 package io.metadata.schoolregistration.controller;
 
 import com.github.javafaker.Faker;
-import io.metadata.schoolregistration.exception.AppException;
 import io.metadata.schoolregistration.model.dto.StudentDTO;
 import io.metadata.schoolregistration.service.StudentService;
 import lombok.extern.slf4j.Slf4j;
@@ -29,8 +28,8 @@ public class StudentControllerTest extends AbstractControllerTest {
 
     private final String URI = API_PREFIX + URL_STUDENTS;
     private final String LIST_URI = URI + URL_LIST;
-    private final String firstName = "Noah";
-    private final String lastName = "Goyette";
+    private final String FIRSTNAME = "Noah";
+    private final String LASTNAME = "Goyette";
 
     @Override
     @Before
@@ -67,12 +66,12 @@ public class StudentControllerTest extends AbstractControllerTest {
         when(studentService.findAll(any(), any())).thenReturn(List.of(StudentDTO.builder().firstName("Noah").lastName("Goyette").build()));
         this.mockMvc.perform(get(LIST_URI)
                 .contentType("application/json")
-                .param("firstName", firstName)
-                .param("lastName", lastName))
+                .param("firstName", FIRSTNAME)
+                .param("lastName", LASTNAME))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$[0].firstName").value(firstName))
-                .andExpect(jsonPath("$[0].lastName").value(lastName))
+                .andExpect(jsonPath("$[0].firstName").value(FIRSTNAME))
+                .andExpect(jsonPath("$[0].lastName").value(LASTNAME))
                 .andExpect(jsonPath("$[0].id").exists());
     }
 
@@ -88,20 +87,6 @@ public class StudentControllerTest extends AbstractControllerTest {
                         .accept(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isCreated());
-    }
-
-    @Test
-    public void shouldReturnDuplicateStudentFromService() throws Exception {
-        StudentDTO student = StudentDTO.builder().firstName(firstName).lastName(lastName).build();
-        String inputJson = mapToJson(student);
-
-        this.mockMvc.perform(MockMvcRequestBuilders
-                        .post(API_PREFIX + URL_STUDENTS)
-                        .content(inputJson)
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .accept(MediaType.APPLICATION_JSON))
-                .andDo(print())
-                .andExpect(result -> assertTrue(result.getResolvedException() instanceof AppException));
     }
 
     @Test
