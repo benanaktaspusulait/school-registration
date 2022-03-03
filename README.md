@@ -25,6 +25,7 @@ This assignment is getting driven by unit-tests
 # Things I could have done/improved if given more time :
 1. More comments in the test code
 2. More test code
+3. Add more test code to check registration controls
 
 #To run 
 2 ways

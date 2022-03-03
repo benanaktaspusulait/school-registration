@@ -105,9 +105,9 @@ public class CourseRegistrationService extends BaseService<CourseRegistrationDTO
         Integer maxRegistrationInCourse = propertyResolver.getLimit().getCount().getMaxRegisterationInCourse();
 
 
-        if(courseCountTakenByStudent > maxRegistrationInCourse) {
+        if(courseCountTakenByStudent >= maxRegistrationInCourse) {
             throw new AppException(AppException.ErrorCodes.MAX_COURSE_FOR_STUDENT);
-        }else if(studentCountInCourse > maxCourseForStudent) {
+        }else if(studentCountInCourse >= maxCourseForStudent) {
             throw new AppException(AppException.ErrorCodes.MAX_COURSE_FOR_STUDENT);
         }
         else {

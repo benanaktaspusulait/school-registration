@@ -24,7 +24,6 @@ public interface BaseRepository<T extends BaseEntity, D extends BaseDTO, ID exte
 
     Logger log = LoggerFactory.getLogger(BaseRepository.class);
 
-    @Transactional(readOnly = true)
     default T findByIdE(ID id) throws ResourceNotFoundException {
         String typeName = ((ParameterizedType) ((Class) getClass().getGenericInterfaces()[0]).getGenericInterfaces()[0]).getActualTypeArguments()[0].getTypeName();
         log.debug("Request to get {} : {}", typeName, id);
@@ -36,7 +35,6 @@ public interface BaseRepository<T extends BaseEntity, D extends BaseDTO, ID exte
         return result.get();
     }
 
-    @Transactional(readOnly = true)
     default D findByIdD(ID id) throws AppException, ClassNotFoundException {
         String mapperName = ((ParameterizedType) ((Class<?>) getClass().getGenericInterfaces()[0]).getGenericInterfaces()[0]).getActualTypeArguments()[3].getTypeName();
         BaseEntityMapper mapper = (BaseEntityMapper) StaticApplicationContext.getContext().getBean(Class.forName(mapperName));
@@ -65,14 +63,12 @@ public interface BaseRepository<T extends BaseEntity, D extends BaseDTO, ID exte
         this.deleteById(id);
     }
 
-    @Transactional
     default List<D> findAllD() throws AppException, ClassNotFoundException {
         String typeName = ((ParameterizedType) ((Class<?>) getClass().getGenericInterfaces()[0]).getGenericInterfaces()[0]).getActualTypeArguments()[3].getTypeName();
         BaseEntityMapper mapper = (BaseEntityMapper) StaticApplicationContext.getContext().getBean(Class.forName(typeName));
         return mapper.toDto(this.findAll());
     }
 
-    @Transactional
     default Page<BaseDTO> findAllD(Pageable page) throws AppException, ClassNotFoundException {
         String typeName = ((ParameterizedType) ((Class<?>) getClass().getGenericInterfaces()[0]).getGenericInterfaces()[0]).getActualTypeArguments()[3].getTypeName();
         BaseEntityMapper mapper = (BaseEntityMapper) StaticApplicationContext.getContext().getBean(Class.forName(typeName));
